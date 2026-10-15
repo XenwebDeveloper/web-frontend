@@ -1,0 +1,63 @@
+@font-face {
+    font-family: bionix;
+    src: url(../../fonts/bionix/Bionix-Fat.eot);
+    src: url(../../fonts/bionix/Bionix-Fat.ttf);
+    src: url(../../fonts/bionix/Bionix-Fat.woff);
+    src: url(../../fonts/bionix/Bionix-Fat.woff2);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../../fonts/quicksand/quicksand-bold.eot);
+    src: url(../../fonts/quicksand/quicksand-bold.ttf);
+    src: url(../../fonts/quicksand/quicksand-bold.woff);
+    src: url(../../fonts/quicksand/quicksand-bold.woff2);
+}
+
+@font-face {
+    font-family: productSans-1;
+    src: url(../../fonts/productSans/ProductSans-Black.eot);
+    src: url(../../fonts/productSans/ProductSans-Black.ttf);
+    src: url(../../fonts/productSans/ProductSans-Black.woff);
+    src: url(../../fonts/productSans/ProductSans-Black.woff2);
+}
+
+@font-face {
+    font-family: productSans-2;
+    src: url(../../fonts/productSans/ProductSans-Bold.eot);
+    src: url(../../fonts/productSans/ProductSans-Bold.ttf);
+    src: url(../../fonts/productSans/ProductSans-Bold.woff);
+    src: url(../../fonts/productSans/ProductSans-Bold.woff2);
+}
+
+@font-face {
+    font-family: productSans-3;
+    src: url(../../fonts/productSans/ProductSans-Medium.eot);
+    src: url(../../fonts/productSans/ProductSans-Medium.ttf);
+    src: url(../../fonts/productSans/ProductSans-Medium.woff);
+    src: url(../../fonts/productSans/ProductSans-Medium.woff2);
+}
+
+@font-face {
+    font-family: productSans-4;
+    src: url(../../fonts/productSans/ProductSans-Regular.eot);
+    src: url(../../fonts/productSans/ProductSans-Regular.ttf);
+    src: url(../../fonts/productSans/ProductSans-Regular.woff);
+    src: url(../../fonts/productSans/ProductSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: productSans-5;
+    src: url(../../fonts/productSans/ProductSans-Light.eot);
+    src: url(../../fonts/productSans/ProductSans-Light.ttf);
+    src: url(../../fonts/productSans/ProductSans-Light.woff);
+    src: url(../../fonts/productSans/ProductSans-Light.woff2);
+}
+
+@font-face {
+    font-family: productSans-6;
+    src: url(../../fonts/productSans/ProductSans-Thin.eot);
+    src: url(../../fonts/productSans/ProductSans-Thin.ttf);
+    src: url(../../fonts/productSans/ProductSans-Thin.woff);
+    src: url(../../fonts/productSans/ProductSans-Thin.woff2);
+}

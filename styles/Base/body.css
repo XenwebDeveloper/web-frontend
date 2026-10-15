@@ -1,0 +1,89 @@
+body {
+    background-color: var(--body-bg);
+    overscroll-behavior: none;
+}
+
+::selection {
+    color: #ffffff;
+    background: var(--hover);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: ltr;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#smooth-content {
+    position: fixed;
+    width: 100%;
+}
+
+/* Hide the scrollbar of the entire page */
+html {
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.cursor-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: var(--normal-pointer);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: all 0.1s ease-out;
+    will-change: transform;
+}
+
+.cursor-dot-pulse {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: var(--special-pointer);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    will-change: transform;
+}
+
+/* ===== انیمیشن نبض آرام ===== */
+@keyframes slowPulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.3;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0.5;
+        border-color: #ffd70080;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.3;
+    }
+}
+
+.cursor-dot-pulse.pulsing {
+    opacity: 1;
+    animation: slowPulse 2s ease-in-out infinite;
+}

@@ -1,0 +1,71 @@
+:root {
+    --body-bg: #131313;
+
+    --transparent: #00000000;
+    --little-transparent: #35353577;
+    --bg-secondary: #131313;
+    --bg-secondary-hover: #1e1c1c;
+
+    --border: #46414152;
+    --border-hover: #5b525298;
+
+    --shadow: #00000053;
+
+    --white: #ffffff;
+    --gray: #ababab;
+    --black: #000000;
+    --pink: #ff29d1;
+    --green: #95ff00;
+
+    --btn: #1a1a1a;
+    --hover: #caa6ff;
+    --glow-hover: #c6a0ff;
+    --hover2: #4adeff;
+
+
+    --title: #ffffff;
+    --subtitle: #b4b4b4;
+    --subtitle2: #b5b5b5a9;
+
+    --clr-1: #adadad;
+    --clr-2: #ffffff;
+
+    --blur: 1rem;
+    --fs: clamp(3rem, 8vw, 7rem);
+    --ls: clamp(-1.75px, -0.25vw, -3.5px);
+
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+
+
+
+    /*----------- Homepage Slider-Text Color -----------*/
+    --slider-text: #575757;
+
+    /*----------- Homepage Boxs -----------*/
+    --box1-bg: #6868682a;
+    --box1-shadow: #ffffff00;
+    --box1-inset-1: #ffffff;
+    --box1-inset-2: #7a7a7a;
+    --box1-D-shadow: #ffffff9d;
+    /*--BOX2--*/
+    --box2-bg: #aa71ff4b;
+    --box2-shadow: #ffffff00;
+    --box2-inset-1: #caa6ff;
+    --box2-inset-2: #caa6ff;
+    --box2-D-shadow: #a86eff;
+    /*--BOX3--*/
+    --box3-bg: #4afff926;
+    --box3-shadow: #ffffff00;
+    --box3-inset-1: #4afff9;
+    --box3-inset-2: #4afff9;
+    --box3-D-shadow: #4afff9;
+
+    /*----------- Pointer -----------*/
+    --normal-pointer: #9340ff;
+    --special-pointer: #3b0088;
+    --main-backgraound-left-shadow: #0003a3;
+    --main-backgraound-right-shadow: #220061;
+}
