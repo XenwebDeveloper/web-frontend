@@ -8,7 +8,7 @@ nav {
   margin: auto;
   z-index: 99;
   overflow: hidden;
-  font-family: 'quicksand', 'productSans-3';
+  font-family: quicksand;
   font-weight: 100;
   border-radius: 50px;
   border: 2px solid var(--border);
@@ -59,7 +59,7 @@ nav::after {
   }
 
   100% {
-    top: 60px;
+    top: 30px;
   }
 }
 
@@ -112,7 +112,6 @@ nav .wrapper {
 }
 
 .wrapper .logo a {
-  font-family: modam2;
   font-size: 33px;
   text-decoration: none;
   color: var(--title);
@@ -258,7 +257,7 @@ nav input {
   }
 
   100% {
-    top: 130px;
+    top: 100px;
   }
 }
 
@@ -293,15 +292,14 @@ nav input {
 }
 
 .slide {
-  min-width: 220px;
-  margin: 0 5px;
+  margin: 0 15px;
   flex: 0 0 5em;
 }
 
 .slide a {
   color: var(--black);
   text-decoration: none;
-  font-family: modam2;
+  font-family: quicksand;
   font-size: 20px;
   font-weight: 100;
   white-space: nowrap;
@@ -487,7 +485,6 @@ circle {
 .text h2 {
   font-size: 32px;
   font-weight: 100;
-  font-family: modam2;
 }
 
 .text p {

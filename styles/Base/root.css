@@ -63,6 +63,18 @@
     --box3-inset-2: #4afff9;
     --box3-D-shadow: #4afff9;
 
+    /*----------- Slider Mask -----------*/
+    --slider-mask-1: #0000;
+    --slider-mask-2: #131313ed;
+    --slider-mask-3: #131313;
+
+    /*----------- Plan -----------*/
+    --plan: #0000004b;
+    --plan-border-before: #ffffff47;
+    --plan-text: #fff;
+    --plan-subtext: #b4b4b4;
+    --plan-subtext-2: #505050;
+
     /*----------- Pointer -----------*/
     --normal-pointer: #9340ff;
     --special-pointer: #3b0088;
